@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lana Del Rey - Biografía y Discografía</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f2f4;
+            color: #333;
+        }
+        
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/api/placeholder/1200/400');
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+            background-color: white;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #e74c3c;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        
+        .photo-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        
+        .album {
+            background-color: #f8f9fa;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border-left: 4px solid #e74c3c;
+        }
+        
+        .album h3 {
+            margin-top: 0;
+            color: #e74c3c;
+        }
+        
+        .quote {
+            font-style: italic;
+            font-size: 1.2em;
+            color: #7f8c8d;
+            text-align: center;
+            margin: 30px 0;
+            padding: 20px;
+            border-left: 5px solid #e74c3c;
+            background-color: #f9f9f9;
+        }
+        
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+        
+        .awards-list {
+            columns: 2;
+            column-gap: 40px;
+        }
+        
+        @media (max-width: 768px) {
+            .awards-list {
+                columns: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Lana Del Rey</h1>
+            <p>Cantante, compositora y poeta estadounidense</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="section">
+            <h2>Biografía</h2>
+            <div class="photo-container">
+                <img src="imagenes/lana.jpg" alt="Lana Del Rey" />
+            </div>
+            <p>Elizabeth Woolridge Grant, conocida profesionalmente como Lana Del Rey, nació el 21 de junio de 1985 en Nueva York. Es una cantante y compositora estadounidense cuya música se caracteriza por su estilo cinematográfico, su preocupación por temas como la tragedia romántica y la melancolía, y referencias a la cultura pop estadounidense, particularmente la de los años 50 y 60.</p>
+            
+            <p>Comenzó su carrera en 2005 con el nombre de May Jailer, luego como Lizzy Grant, y finalmente adoptó el nombre artístico de Lana Del Rey en 2010. Su primer álbum importante bajo este nombre fue "Born to Die" (2012), que alcanzó el número dos en el Billboard 200 de los Estados Unidos y fue uno de los álbumes más vendidos de 2012.</p>
+            
+            <p>Además de su carrera musical, Del Rey ha incursionado en la poesía, publicando en 2020 el libro "Violet Bent Backwards Over the Grass".</p>
+        </div>
+        
+        <div class="quote">
+            "La vida es hermosa, pero tienes que encontrar la belleza tú mismo." - Lana Del Rey
+        </div>
+        
+        <div class="section">
+            <h2>Discografía Destacada</h2>
+            
+            <div class="album">
+                <h3>Born to Die (2012)</h3>
+                <p>Su álbum debut bajo el nombre de Lana Del Rey incluyó éxitos como "Video Games", "Born to Die" y "Summertime Sadness". El álbum fusionó estilos como pop barroco, indie pop y trip hop.</p>
+            </div>
+            
+            <div class="album">
+                <h3>Ultraviolence (2014)</h3>
+                <p>Con un sonido más orientado al rock psicodélico, este álbum fue producido principalmente por Dan Auerbach de The Black Keys e incluye canciones como "West Coast" y "Brooklyn Baby".</p>
+            </div>
+            
+            <div class="album">
+                <h3>Honeymoon (2015)</h3>
+                <p>Un regreso a un sonido más orquestal y cinematográfico con temas como "High By The Beach" y "Music To Watch Boys To".</p>
+            </div>
+            
+            <div class="album">
+                <h3>Lust for Life (2017)</h3>
+                <p>Un álbum más optimista que contó con colaboraciones con artistas como The Weeknd, A$AP Rocky y Stevie Nicks.</p>
+            </div>
+            
+            <div class="album">
+                <h3>Norman Fucking Rockwell! (2019)</h3>
+                <p>Considerado por muchos críticos como su obra maestra, con un sonido folk y psicodélico. Fue producido por Jack Antonoff e incluye canciones como "Venice Bitch" y "Mariners Apartment Complex".</p>
+            </div>
+            
+            <div class="album">
+                <h3>Chemtrails Over the Country Club (2021)</h3>
+                <p>Un álbum más íntimo y minimalista que explora temas de nostalgia y escapismo.</p>
+            </div>
+            
+            <div class="album">
+                <h3>Blue Banisters (2021)</h3>
+                <p>Lanzado pocos meses después de "Chemtrails", muestra un lado más personal y confesional de la artista.</p>
+            </div>
+
+            <div class="album">
+                <h3>Did You Know That There's a Tunnel Under Ocean Blvd (2023)</h3>
+                <p>Su noveno álbum de estudio que continuó explorando temas personales con un enfoque introspectivo y recibió elogios de la crítica.</p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Estilo Musical y Legado</h2>
+            <p>El estilo musical de Lana Del Rey se caracteriza por sus melodías cinematográficas, sus letras melancólicas y su estética vintage. A menudo aborda temas como el amor trágico, la nostalgia americana, el glamour y la decadencia.</p>
+            
+            <p>Su imagen artística está fuertemente influenciada por la cultura pop de mediados del siglo XX, el cine clásico de Hollywood y la literatura beatnik. Ha sido reconocida por crear un universo artístico coherente que abarca su música, estética visual y presentaciones en vivo.</p>
+            
+            <p>Del Rey ha sido acreditada con popularizar un renacimiento de la música alternativa centrada en temas más oscuros y una estética más estilizada. Su influencia se puede ver en artistas posteriores como Billie Eilish, Halsey y Florence + The Machine.</p>
+        </div>
+        
+        <div class="section">
+            <h2>Premios y Reconocimientos</h2>
+            <div class="awards-list">
+                <ul>
+                    <li>Múltiples nominaciones a los Grammy</li>
+                    <li>2 Premios Brit</li>
+                    <li>2 MTV Europe Music Awards</li>
+                    <li>Premio Ivor Novello</li>
+                    <li>Billboard Women in Music "Visionary Award"</li>
+                    <li>Variedad "Hitmaker of the Decade"</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>Lana Del Rey - Una artista única en la música contemporánea</p>
+            <p>Esta página fue creada con fines informativos | 2025</p>
+        </div>
+    </footer>
+</body>
+</html>
